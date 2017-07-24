@@ -1,7 +1,9 @@
 function ClozeCard(text, cloze){
 	this.fullText = fullText;
 	this.cloze = cloze;
-	this.partial = partial;
+	this.partial = function(){
+		//remove the cloze,replace with "...", then print the new strong
+	};
 };
 
 var firstPresidentCloze = new ClozeCard(
