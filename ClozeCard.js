@@ -11,10 +11,6 @@ var firstPresidentCloze = new ClozeCard(
 // "George Washington"
 console.log(firstPresidentCloze.cloze); 
 
-this.partial = function(){
- console.log(this.fullText.replace(this.cloze, "..."));
-}
-
 // " ... was the first president of the United States.
 console.log(firstPresidentCloze.partial); ""
 
