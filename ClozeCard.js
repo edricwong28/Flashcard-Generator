@@ -1,16 +1,19 @@
-function ClozeCard(text, cloze){
+function ClozeCard(fullText, cloze){
 	this.fullText = fullText;
 	this.cloze = cloze;
-	this.partial = function(){
-		//remove the cloze,replace with "...", then print the new strong
-	};
+	this.partial = this.fullText.replace(this.cloze, "...");
 };
 
 var firstPresidentCloze = new ClozeCard(
     "George Washington was the first president of the United States.", "George Washington");
 
+
 // "George Washington"
 console.log(firstPresidentCloze.cloze); 
+
+this.partial = function(){
+ console.log(this.fullText.replace(this.cloze, "..."));
+}
 
 // " ... was the first president of the United States.
 console.log(firstPresidentCloze.partial); ""
