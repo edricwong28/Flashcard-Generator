@@ -1,4 +1,3 @@
-var exports = require('exports');
 var inquirer = require("inquirer");
 
 function ClozeCard(fullText, cloze){
