@@ -1,0 +1,23 @@
+{
+  "name": "Flashcard-Generator-1",
+  "version": "1.0.0",
+  "description": "Flashcard-Generator",
+  "main": "BasicCard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyler-reitz/Flashcard-Generator-1.git"
+  },
+  "keywords": [],
+  "author": "Tyler Reitz <tdreitz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyler-reitz/Flashcard-Generator-1/issues"
+  },
+  "homepage": "https://github.com/tyler-reitz/Flashcard-Generator-1#readme",
+  "dependencies": {
+    "inquirer": "^3.2.1"
+  }
+}
