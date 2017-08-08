@@ -1,4 +1,4 @@
-var exports = require('exports');
+// No need to require exports. It's native to Nod.
 var inquirer = require("inquirer");
 
 function BasicCard(front, back){
@@ -24,7 +24,10 @@ var showCard1 = function(){
     }); 
 }
 
-
+showCard1();
+// The three statements above should be moved out to a 
+// another file that handles the main logic and control
+// flow of your application. You want to keep these
+// constructor modules as focused as possible
 
 module.exports = BasicCard;
-showCard1();
